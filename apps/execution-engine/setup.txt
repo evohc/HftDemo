@@ -1,0 +1,6 @@
+
+sudo apt update
+sudo apt install build-essential g++ gdb cmake -y
+
+Set language in C++ extension to C++23
+g++ -std=c++23 main.cpp -o execution_engine -Wall -Wextra

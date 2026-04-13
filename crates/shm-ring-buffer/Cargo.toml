@@ -1,0 +1,10 @@
+[package]
+name = "shm-ring-buffer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../../crates/common" }
+memmap2 = "0.9"    
+thiserror = "1.0" 
+libc = "0.2"

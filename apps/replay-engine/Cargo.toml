@@ -1,0 +1,12 @@
+[package]
+name = "replay-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+market-handler = { path = "../../crates/market-handler" }
+common = { path = "../../crates/common" }
+shm-ring-buffer = { path = "../../crates/shm-ring-buffer" }
+strategies = { path = "../../crates/strategies" }
+core_affinity = "0.8.3"
+memmap2 = "0.9"

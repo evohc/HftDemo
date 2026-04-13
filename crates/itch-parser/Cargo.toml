@@ -1,0 +1,17 @@
+[package]
+name = "itch-parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../../crates/common" }
+
+# Ensure optimizations are off for testing
+[profile.test]
+opt-level = 0
+debug = true
+
+# Ensure optimizations are off for development runs
+[profile.dev]
+opt-level = 0
+debug = true

@@ -1,0 +1,11 @@
+[package]
+name = "visualiser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../../crates/common" }
+shm-ring-buffer = { path = "../../crates/shm-ring-buffer" }
+anyhow = "1.0"
+core_affinity = "0.8.3"
+reqwest = { version = "0.13", features = ["blocking"] }

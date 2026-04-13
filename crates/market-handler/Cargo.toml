@@ -1,0 +1,14 @@
+[package]
+name = "market-handler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../../crates/common" }
+itch-parser = { path = "../../crates/itch-parser" }
+orderbook = { path = "../../crates/orderbook" }
+strategies = { path = "../../crates/strategies" }
+ticker = { path = "../../crates/ticker" }
+shm-ring-buffer = { path = "../../crates/shm-ring-buffer" }
+risk-engine = { path = "../../crates/risk-engine" }
+memmap2 = "0.9"  

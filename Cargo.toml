@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/common",
+    "crates/itch-parser",
+    "crates/risk-engine",
+    "crates/orderbook",
+    "crates/strategies",
+    "crates/shm-ring-buffer",
+    "crates/ticker",
+    "crates/market-handler",
+    "apps/visualiser",
+    "apps/live-engine", "apps/replay-engine", 
+]
